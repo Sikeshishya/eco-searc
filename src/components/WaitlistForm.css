@@ -1,0 +1,53 @@
+.waitlist {
+  background-color: #f0f4f8;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.waitlist-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.waitlist h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2d3748;
+}
+
+.waitlist p {
+  margin-bottom: 1.5rem;
+  color: #4a5568;
+}
+
+.waitlist-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.waitlist-input {
+  flex-grow: 1;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.waitlist-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #63b3ed;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.waitlist-button:hover {
+  background-color: #3182ce;
+}
